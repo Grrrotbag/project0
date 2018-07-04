@@ -1,0 +1,48 @@
+.jumbotron {
+    height: 500px;
+    text-align: center;
+    border-radius: 0 !important;
+}
+
+#index-jumbo {
+    background-image: url('placeimg_1000_400_skyline.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#about-jumbo {
+    background-image: url('placeimg_1000_400_people.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: lightblue;
+}
+
+#photo-jumbo {
+    background-image: url('placeimg_1000_400_arch.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: peachpuff;
+}
+
+#equip-jumbo {
+    background-image: url('placeimg_1000_400_grayscale_tech.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+
+.display-1 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#hero-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#hero-quote {
+    text-align: center;
+}
