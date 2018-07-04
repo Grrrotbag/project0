@@ -29,12 +29,13 @@ Images come from https://placeimg.com/
     8. text-transform
     9. font-weight
     - [x] 8 css selectors, 64 by id, 2 by class
-- [ ] Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
-- [x] You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
+- [x] Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
+    - [x] display-1 headings in jumbotrons reduce in size on screens below 700px
+- [ ] You must use Bootstrap 4 on your website, taking advantage of at least one Bootstrap component, and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model.
     - [x] navbar
     - [x] jumbotron
     - [x] table
     - [x] cards
-    - [x] grid of cards on index.html
+    - [ ] grid of cards on index.html gone now.
 - [ ] Your stylesheets must use at least one SCSS variable, at least one example of SCSS nesting, and at least one use of SCSS inheritance.
 - [x] In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.

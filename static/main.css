@@ -1,14 +1,14 @@
 .jumbotron {
-    height: 500px;
+    height: 400px;
     text-align: center;
     border-radius: 0 !important;
 }
 
 #index-jumbo {
-    background-image: url('placeimg_1000_400_skyline.jpg');
+    /* background-image: url('placeimg_1000_400_skyline.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
-    color: white;
+    /* color: white; */
 }
 
 #about-jumbo {
@@ -45,4 +45,14 @@
 
 #hero-quote {
     text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .display-1 {
+        font-size: 3em;
+    }
+
+    .jumbotron {
+        height: 300px;
+    }
 }
