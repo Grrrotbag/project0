@@ -4,6 +4,8 @@ Web Programming with Python and JavaScript
 
 This is the most basic personal page (with little personal information) imaginable, but it should suffice to demonstrate the principals. At least, I hope so.
 
+- photography.html Photo by Mahir Uysal on Unsplash
+
 Images come from https://placeimg.com/
 
 - [x] Your website must contain at least four different .html pages, and it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
