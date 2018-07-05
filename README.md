@@ -8,6 +8,8 @@ This is the most basic personal site (with little real personal information) ima
 - mahir-uysal-529531-unsplash.jpg Photo by Mahir Uysal on Unsplash
 - oleg-laptev-546607-unsplash.jpg by Oleg Laptev on Unsplash
 - Photo by Leio McLaren on Unsplash
+- joanna-kosinska-129039-unsplash.jpg by Joanna Kosinska on Unsplash
+- noah-buscher-548633-unsplash.jpg by Noah Buscher on Unsplash
 
 - Jumbotron Images come from https://placeimg.com/, as does the 'hero' img on the index page.
 

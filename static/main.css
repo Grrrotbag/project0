@@ -1,74 +1,71 @@
 ::selection {
   color: #fff;
-  background-color: orangered;
-}
+  background-color: orangered; }
 
 nav a:active {
-  color: yellow;
-}
+  color: yellow; }
 
 .jumbotron {
   height: 625px;
   text-align: center;
-  border-radius: 0 !important;
-}
-.jumbotron .display-1 {
-  text-transform: uppercase;
-  font-weight: bold;
-}
+  border-radius: 0 !important; }
+  .jumbotron .display-1 {
+    text-transform: uppercase;
+    font-weight: bold; }
 
-#equip-jumbo, #photo-jumbo, #about-jumbo, #index-jumbo {
+#index-jumbo, #about-jumbo, #photo-jumbo, #equip-jumbo {
   background-size: cover;
-  background-repeat: no-repeat;
-}
+  background-repeat: no-repeat; }
+
+#index-jumbo {
+  height: 400px;
+  color: whitesmoke;
+  background-color: #ffa230; }
+  #index-jumbo .display-1 {
+    text-shadow: 2px 2px #c96f00; }
 
 #about-jumbo {
-  background-image: url("leio-mclaren-307299-unsplash.jpg");
-  color: lightblue;
-}
+  background-image: url("noah-buscher-548633-unsplash.jpg");
+  color: white; }
+  #about-jumbo .display-1 {
+    color: lightblue;
+    text-shadow: 2px 2px #86c5da; }
 
 #photo-jumbo {
   background-image: url("mahir-uysal-529531-unsplash.jpg");
-  color: peachpuff;
-}
-#photo-jumbo .lead {
-  color: #fff;
-}
+  color: peachpuff; }
+  #photo-jumbo .lead {
+    color: #fff; }
+  #photo-jumbo .display-1 {
+    text-shadow: 2px 2px #ffbf86; }
 
 #equip-jumbo {
-  background-image: url("oleg-laptev-546607-unsplash.jpg");
-  color: #ffa230;
-}
+  background-image: url("joanna-kosinska-129039-unsplash.jpg");
+  color: white; }
+  #equip-jumbo .display-1 {
+    color: #ffa230;
+    text-shadow: 2px 2px #c96f00; }
 
-#about-img, #hero-img {
+#hero-img, #about-img {
   display: block;
   margin: 0 auto;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 #hero-quote {
-  text-align: center;
-}
+  text-align: center; }
 
 @media only screen and (max-width: 750px) {
   .display-1 {
-    font-size: 3em;
-  }
+    font-size: 3em; }
 
   .jumbotron {
-    height: 300px;
-  }
-}
+    height: 300px; } }
 @media only screen and (min-width: 968px) {
   nav a:hover {
     color: #fff;
-    background-color: orangered;
-  }
-}
+    background-color: orangered; } }
 @media only screen and (max-width: 400px) {
   #about-img {
-    display: none;
-  }
-}
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

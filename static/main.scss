@@ -32,12 +32,22 @@ nav a:active {
 
 #index-jumbo {
     @extend %jumbo;
-}
+    height: 400px;
+    color: whitesmoke;
+    background-color: $light-orange;
+    .display-1 {
+        text-shadow: 2px 2px darken($light-orange, 20%);
+    }
+    }
 
 #about-jumbo {
     @extend %jumbo;
-    background-image: url('leio-mclaren-307299-unsplash.jpg');
-    color: lightblue;
+    background-image: url('noah-buscher-548633-unsplash.jpg');
+    color: white;
+    .display-1 {
+        color: lightblue;
+        text-shadow: 2px 2px darken(lightblue, 10%);
+    }
 }
 
 #photo-jumbo {
@@ -47,13 +57,20 @@ nav a:active {
     .lead {
         color: $white;
     }
+    .display-1 {
+        text-shadow: 2px 2px darken(peachpuff, 10%);
+    }
 }
 
 #equip-jumbo {
     @extend %jumbo;
     // height: 625px;
-    background-image: url('oleg-laptev-546607-unsplash.jpg');
-    color: $light-orange;
+    background-image: url('joanna-kosinska-129039-unsplash.jpg');
+    color: white;
+    .display-1 {
+        color: $light-orange;
+        text-shadow: 2px 2px darken($light-orange, 20%);
+    }
 }
 
 %circle-img {
