@@ -1,0 +1,98 @@
+// Colours variables
+$white: #fff;
+$orange: orangered;
+$light-orange: #ffa230;
+
+::selection {
+    color: $white;
+    background-color: $orange;
+}
+
+nav a:active {
+    color: yellow;
+}
+
+//nesting
+.jumbotron {
+    height: 625px;
+    text-align: center;
+    border-radius: 0 !important;
+
+    .display-1 {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+//inheritance
+%jumbo {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#index-jumbo {
+    @extend %jumbo;
+}
+
+#about-jumbo {
+    @extend %jumbo;
+    background-image: url('placeimg_1000_400_people.jpg');
+    color: lightblue;
+}
+
+#photo-jumbo {
+    @extend %jumbo;
+    background-image: url('mahir-uysal-529531-unsplash.jpg');
+    color: peachpuff;
+    .lead {
+        color: $white;
+    }
+}
+
+#equip-jumbo {
+    @extend %jumbo;
+    // height: 625px;
+    background-image: url('oleg-laptev-546607-unsplash.jpg');
+    color: $light-orange;
+}
+
+%circle-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+#hero-img {
+    @extend %circle-img;
+}
+
+#about-img {
+    @extend %circle-img;
+}
+
+#hero-quote {
+    text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .display-1 {
+        font-size: 3em;
+    }
+
+    .jumbotron {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 968px) {
+    nav a:hover {
+        color: $white;
+        background-color: $orange;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #about-img {
+        display: none;
+    }
+}

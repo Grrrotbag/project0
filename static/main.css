@@ -1,58 +1,74 @@
-.jumbotron {
-    height: 400px;
-    text-align: center;
-    border-radius: 0 !important;
+::selection {
+  color: #fff;
+  background-color: orangered;
 }
 
-#index-jumbo {
-    /* background-image: url('placeimg_1000_400_skyline.jpg'); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* color: white; */
+nav a:active {
+  color: yellow;
+}
+
+.jumbotron {
+  height: 625px;
+  text-align: center;
+  border-radius: 0 !important;
+}
+.jumbotron .display-1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#equip-jumbo, #photo-jumbo, #about-jumbo, #index-jumbo {
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #about-jumbo {
-    background-image: url('placeimg_1000_400_people.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: lightblue;
+  background-image: url("placeimg_1000_400_people.jpg");
+  color: lightblue;
 }
 
 #photo-jumbo {
-    background-image: url('placeimg_1000_400_arch.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: peachpuff;
+  background-image: url("mahir-uysal-529531-unsplash.jpg");
+  color: peachpuff;
+}
+#photo-jumbo .lead {
+  color: #fff;
 }
 
 #equip-jumbo {
-    background-image: url('placeimg_1000_400_grayscale_tech.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: aliceblue;
+  background-image: url("oleg-laptev-546607-unsplash.jpg");
+  color: #ffa230;
 }
 
-.display-1 {
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-#hero-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
+#about-img, #hero-img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 #hero-quote {
-    text-align: center;
+  text-align: center;
 }
 
 @media only screen and (max-width: 750px) {
-    .display-1 {
-        font-size: 3em;
-    }
+  .display-1 {
+    font-size: 3em;
+  }
 
-    .jumbotron {
-        height: 300px;
-    }
+  .jumbotron {
+    height: 300px;
+  }
 }
+@media only screen and (min-width: 968px) {
+  nav a:hover {
+    color: #fff;
+    background-color: orangered;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #about-img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
