@@ -5,6 +5,9 @@
 nav a:active {
   color: yellow; }
 
+.navbar-brand {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
 .jumbotron {
   height: 625px;
   text-align: center;
