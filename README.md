@@ -11,7 +11,7 @@ This is the most basic personal site (with little real personal information) ima
 - joanna-kosinska-129039-unsplash.jpg by Joanna Kosinska on Unsplash
 - noah-buscher-548633-unsplash.jpg by Noah Buscher on Unsplash
 
-- Jumbotron Images come from https://placeimg.com/, as does the 'hero' img on the index page.
+- Other Images come from https://placeimg.com/, including the 'hero' img on the index page.
 
 ## Pages
 index.html is essentially a splash page, welcoming users to the site, and offering options of where to visit next.
