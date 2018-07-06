@@ -3,8 +3,12 @@
   background-color: orangered;
 }
 
-nav a:active {
-  color: yellow;
+.navbar-nav > .active > a {
+  color: #ffa230 !important;
+}
+
+.nav-item > a:hover {
+  color: #ffa230;
 }
 
 .navbar-brand {

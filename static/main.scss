@@ -9,9 +9,17 @@ $light-orange: #ffa230;
 }
 
 //TODO: Not working
-nav a:active {
-    color: yellow;
-}
+// nav a:active {
+//     color: yellow; 
+// }
+
+.navbar-nav > .active > a {
+    color: $light-orange !important;
+    // background-color: chartreuse;    
+  }
+  .nav-item > a:hover {
+    color: $light-orange;
+  }
 
 .navbar-brand {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
