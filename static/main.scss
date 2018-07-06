@@ -47,9 +47,10 @@ $light-orange: #ffa230;
 
 #index-jumbo {
     @extend %jumbo;
-    height: 400px;
+    // height: 400px;
+    background-image: url('oleg-laptev-546607-unsplash.jpg');
     color: whitesmoke;
-    background-color: $light-orange;
+    background-color: $light-orange; //fallback in case we don't use image for any reason
     .display-1 {
         text-shadow: 2px 2px darken($light-orange, 20%);
     }
